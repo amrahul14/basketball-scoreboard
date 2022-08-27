@@ -1,0 +1,84 @@
+body{
+    background-image: linear-gradient(to right, #f8f8f8, #7b865e);
+}
+.all{
+    display:flex;
+    justify-content: space-around;
+}
+.scoreboard{
+    background-color: #1B244A;
+    text-align: center;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    box-sizing: content-box;  
+}
+.container{
+    background-color: #1B244A;
+    display: flex;
+    justify-content: space-around;
+    margin:0px;
+    border-radius: 10px;
+}
+h1{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-weight: bolder;
+}
+h2{
+    margin: 20px;
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+color: #F94F6D;
+padding: 20px;
+background-color: black;
+border-radius: 5px;
+}
+#home{
+    margin: 30px;
+    text-align: center;
+}
+#guest{
+    margin: 30px;
+    text-align: center;
+}
+.heading{
+    margin:0px;
+    font-size: larger;
+    font-family:Verdana;
+    color: #E5E5E5;
+    font-weight: 800;
+}
+button{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #1B244A;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border:dashed;
+   margin-right: 5px;
+}
+button:hover{
+    font-size:10px ;
+    cursor:pointer;
+}
+#reset{
+    background-color: aquamarine;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    box-sizing: border-box;
+}
+#reset:hover{
+    font-size: 20px;
+}
